@@ -5,7 +5,7 @@ import Home from "./components/pages/Home";
 import Team from "./components/pages/Team";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./components/login/Login";
-
+import FooterNew from "./components/navigation/FooterNew";
 function App() {
   return (
     <Router>
@@ -16,7 +16,8 @@ function App() {
           <Route path="/team" exact element={<Team />} />
           <Route path="/login" exact element={<Login />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
+        <FooterNew />
       </div>
     </Router>
   );
