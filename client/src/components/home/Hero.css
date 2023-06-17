@@ -1,0 +1,31 @@
+.hero-section{
+    background-color: bisque;
+}
+.hero{
+    margin: 0 13rem;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-text-box{
+    padding: 5rem 0;
+    max-width: 60rem;
+}
+.primary-heading{
+    font-size: 5.6rem;
+}
+.hero-text{
+    font-size: 2.4rem;
+}
+.hero-links{
+    display: flex;
+    gap: 5rem;
+    margin: 4rem 0 0;
+}
+.hero-link{
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 1.6rem;
+    padding: .7rem;
+    color: black;
+    background-color: blueviolet;
+}
