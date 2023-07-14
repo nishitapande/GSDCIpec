@@ -1,0 +1,47 @@
+.page404{
+    margin: 7rem 20rem;
+    display: flex;
+    gap: .3rem;
+}
+.left-box{
+    max-width: 50%;
+}
+.text-box{
+    max-width: 90%;
+}
+.primary-heading{
+    font-size: 8.4rem;
+}
+.g{
+    color: #4285F4;
+}
+.d{
+    color:#EA4335;
+
+}
+.s{
+    color: #FBBC05;
+
+}
+.c{
+    color: #34A853;
+
+}
+.para-text{
+    font-size: 2rem;
+}
+.horizontal-rule{
+    border: 2px solid #EA4335;
+    width:40%;
+    text-align:left;
+    margin-left:0
+}
+.light-text{
+    color: #888;
+}
+.robot-img{
+    width: 45rem;
+    height: 30rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}

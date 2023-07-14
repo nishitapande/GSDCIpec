@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AddMemberForm from "./member/AddMemberForm";
+import MemberForm from "./member/MemberForm";
 function TeamForm() {
   const [selectedSession, setSelectedSession] = useState("");
   const [showMemberForm, setShowMemberForm] = useState(false);
@@ -60,6 +61,7 @@ function TeamForm() {
           {showMemberForm && <AddMemberForm onClose={handleMemberFormClose} />}
         </form>
       </div>
+      <MemberForm />
     </div>
   );
 }
