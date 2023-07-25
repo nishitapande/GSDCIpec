@@ -1,0 +1,14 @@
+
+
+.nav-links{
+    display: flex;
+    gap: 5rem;
+}
+.nav-link{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    color: aqua;
+}
