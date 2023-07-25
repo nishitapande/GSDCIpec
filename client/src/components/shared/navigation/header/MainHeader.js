@@ -5,16 +5,17 @@ import "./MainHeader.css";
 function MainHeader() {
   const [sideDrawerIsOpen, setSideDrawerIsOpen] = useState(false);
   const openSideDrawer = () => {
-    setSideDrawerIsOpen(!sideDrawerIsOpen);
+    setSideDrawerIsOpen(true);
   };
 
   return (
     <div className="main-header">
       <div className="main-header__box">
         <div className="main-header__leftbox">
-          {sideDrawerIsOpen ? (
+        //
+          {sideDrawerIsOpen &&(
             <SlideDrawer />
-          ) : null}
+          )}
 
           <button className="main-header__menu-btn" onclick={openSideDrawer}>
             <span />

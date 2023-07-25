@@ -5,20 +5,23 @@ import "./SlideDrawer.css";
 function SlideDrawer() {
   return (
     <aside className="side-drawer">
-      <nav className="nav-links">
-        <NavLink to="/" className="nav-link">
+      <button>
+        <span> X </span>
+      </button>
+      <nav className="side-nav-links">
+        <NavLink to="/" className="side-nav-link">
           Home
         </NavLink>
-        <NavLink className="nav-link" to="/team">
+        <NavLink className="side-nav-link" to="/team">
           Team
         </NavLink>
-        <NavLink className="nav-link" to="/about">
+        <NavLink className="side-nav-link" to="/about">
           About
         </NavLink>
-        <NavLink className="nav-link" to="/event">
+        <NavLink className="side-nav-link" to="/event">
           Event
         </NavLink>
-        <NavLink className="nav-link" to="/contact">
+        <NavLink className="side-nav-link" to="/contact">
           Contact
         </NavLink>
       </nav>
