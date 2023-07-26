@@ -5,9 +5,9 @@ import "./SlideDrawer.css";
 function SlideDrawer() {
   return (
     <aside className="side-drawer">
-      <button>
+      {/* <button>
         <span> X </span>
-      </button>
+      </button> */}
       <nav className="side-nav-links">
         <NavLink to="/" className="side-nav-link">
           Home

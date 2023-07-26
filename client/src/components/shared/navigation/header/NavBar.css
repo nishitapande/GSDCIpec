@@ -10,5 +10,9 @@
     color: black;
 }
 .nav-link:hover{
-    color: aqua;
+    color: #4285F4;
+}
+.selected{
+    background-color: #4285F4;
+    color: rgb(0, 0, 0);
 }
