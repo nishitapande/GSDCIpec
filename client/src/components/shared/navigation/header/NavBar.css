@@ -12,6 +12,12 @@
 .nav-link:hover{
     color: #4285F4;
 }
+.nav-links a:active,
+.nav-links a.active{
+    /* background-color: #4285F4; */
+    color: #4285F4;
+    
+}
 .selected{
     background-color: #4285F4;
     color: rgb(0, 0, 0);

@@ -1,19 +1,27 @@
 import React, { useState } from "react";
 import NavBar from "./NavBar";
-import SlideDrawer from "./SlideDrawer";
+import SideDrawer from "./SideDrawer";
 import "./MainHeader.css";
 function MainHeader() {
-  const [sideDrawer, setSideDrawer] = useState(false);
-  const openSideDrawer = () => {
-    setSideDrawer(true);
+  const [drawerIsOpen, setDrawerIsOpen] = useState(false);
+  const openDrawer = () => {
+    setDrawerIsOpen(true);
+  };
+  const closeDrawer = () => {
+    setDrawerIsOpen(false);
   };
 
   return (
     <div className="main-header">
       <div className="main-header__box">
-        {sideDrawer ? <SlideDrawer /> : null}
+        {drawerIsOpen && (
+          <SideDrawer onClick={closeDrawer}>
+            <NavBar />
+          </SideDrawer>
+        )}
+
         <div className="main-header__leftbox">
-          <button className="main-header__menu-btn" onclick={openSideDrawer}>
+          <button className="main-header__menu-btn" onClick={openDrawer}>
             <span />
             <span />
             <span />

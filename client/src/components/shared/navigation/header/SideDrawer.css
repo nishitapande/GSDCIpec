@@ -1,0 +1,39 @@
+.side-drawer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    height: 100vh;
+    width: 70%;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+   
+  }
+  .close-button{
+    float: right;
+    margin: 3rem;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+    border: none;
+  }
+  .side-drawer .nav-links {
+    display: flex;
+    flex-direction: column;
+    margin: 15rem 35%;
+    text-align: center;
+  }
+  .side-drawer .nav-links a {
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+  }
+  .side-drawer .nav-links a.active{
+    color:#4285F4 ;
+  }
+  .side-nav-link{
+    color: aliceblue;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
